@@ -2,8 +2,8 @@
 #include <unistd.h>
 
 /**
- * main - prints exactly "and that piece of art is useful"
- * Return: Always 0 (Success)
+ * main - will prints the string
+ * Return: return 0 is sucessful
  */
 int main(void)
 {
