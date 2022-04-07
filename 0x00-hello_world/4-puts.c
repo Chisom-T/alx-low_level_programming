@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - The containing function of this programme
- * Return: this gives 0 if sucessful
+ * main - The main function of this programme
+ * Return: this gives 0 if sucessful and nothing when 
  */
 int main(void)
 {
