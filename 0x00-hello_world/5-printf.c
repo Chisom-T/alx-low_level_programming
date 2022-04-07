@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - the containing func
- * Return: 0 if succesful
+ * main - the main containing function
+ * Return: will return 0 if succesful
  */
 int main(void)
 {
