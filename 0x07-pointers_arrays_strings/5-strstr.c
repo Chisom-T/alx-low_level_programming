@@ -1,18 +1,34 @@
 #include "main.h"
-#include <stdio.h>
+
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * _strstr - function locate
+ * @haystack: pointer to char
+ * @needle: pointer to char
+ * Return: 0
  */
-int main(void)
-{
-	char *s = "wworld of this";
-	char *f = "world";
-	char *t;
 
-	t = _strstr(s, f);
-	printf("%s\n", t);
+
+
+char *_strstr(char *haystack, char *needle)
+{
+	char *result = haystack, *fneedle = needle;
+	while (*haystack)
+	{
+		while (*needle)
+		{
+			if (*haystack++ != *needle++)
+			{
+				break;
+			}
+		}
+		if (!*needle)
+		{
+			return (result);
+		}
+		needle = fneedle;
+		result++;
+		haystack = result;
+	}
 	return (0);
 }
