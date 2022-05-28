@@ -1,2 +1,1 @@
-# alx-low_level_programming
-The start of c programming language
+all about the low level programming
